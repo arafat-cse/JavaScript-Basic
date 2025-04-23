@@ -59,3 +59,41 @@ console.log(arry);
 // First index remove 
 arry.shift();
 console.log(arry);
+
+
+//loop
+var count = [1,2,3,4,5,6,7,8,9,10];
+
+console.log("Index " + count[0]);
+for( var i = 0; i<count.length; i++){
+    // console.log(count[i]);
+    var element = count[i];
+    if(element > 3){
+        
+        console.log(count[i]);
+    }
+}
+
+// Function 
+
+function addTwoNumber(){
+    console.log(30+10);
+}
+addTwoNumber();
+
+function addTwoNumbers(a,b){
+    console.log(a+b);
+}
+addTwoNumbers(50,20);
+
+function numberOfFuntion(nume){
+    if(nume /2==0){
+        return " Even Number";
+    }else
+    {
+        return "Old Number"
+    }
+}
+var output = numberOfFuntion(50);
+
+console.log(output);
